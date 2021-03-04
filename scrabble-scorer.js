@@ -41,7 +41,7 @@ function initialPrompt() {
 
 function simpleScore(word){
   word = word.toUpperCase();
-  let letterPoints = "";
+  let letterPoints = 0;
   letterPoints += word.length;
   return letterPoints;
   };
